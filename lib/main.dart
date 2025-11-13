@@ -4,6 +4,7 @@ import 'package:my_health_app/src/feature/screens/bmi_screen.dart';
 import 'package:my_health_app/src/routes/my_health_app_router.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MainApp());
 }
 

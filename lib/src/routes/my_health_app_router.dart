@@ -6,7 +6,7 @@ import 'package:my_health_app/src/feature/screens/zodiac_screen.dart';
 
 class MyHealthAppRouter {
   // Router implementation goes here
-  static GoRouter router = GoRouter(
+  static final GoRouter router = GoRouter(
     routes: [
       // Define your routes here
       GoRoute(path: '/', builder: (context, state) => HomeScreen()),

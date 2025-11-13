@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:my_health_app/src/feature/widgets/my_health_app_drawer.dart';
 
 class BmiScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: MyHealthAppDrawer(),
       appBar: AppBar(title: Text('BMI Calculator')),
       body: Center(
         child: Column(
